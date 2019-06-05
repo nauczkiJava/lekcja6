@@ -5,5 +5,9 @@ public class SilnikElektryczny extends Silnik {
     SilnikElektryczny() {
         super();
     }
+    
+    public static String getRodzaj() {
+        return rodzaj;
+    }
 
 }
